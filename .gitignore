@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and experiment artifacts
+runs/
+checkpoints
+checkpoints/
+logs/
+debug/
+cache/
+outputs/
+.hydra/
+wandb/
+tmp/
+verl-grpo/
+verl-nfpo*/
+.gemini/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Datasets
+data/
